@@ -1,0 +1,219 @@
+*{
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      box-sizing: border-box;
+      
+      }
+      
+      body{background-color: white;
+            margin: 0%;
+            padding: 0%;
+      
+      }
+      
+      header{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 40vh;
+            background-color: white;
+      
+      }
+      
+      .logo{
+            width: 20%;
+            height: 100%;
+      }
+      
+      .logo img{
+            width: 100%;
+            height: 100%;
+      }
+      
+      .titulo{
+            width: 60%;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            color: brown;
+      }
+      
+      .titulo h1{
+            font-size: 3em;
+            height: 50%;
+            margin: 0;
+            font-family: 'Dancing Script', cursive;
+      }
+      
+      .titulo h2{
+            font-size: 1em;
+            height: 30%;
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+      }
+      
+      .menu{
+            width: 20%;
+            height: 100%;
+            text-align: center;
+      }
+      
+      .menu i{
+            font-size: 3em;
+      }
+      
+      nav{
+            display: none;
+      }
+      
+      main{
+      display:flex;
+      flex-direction: column;
+      width:100;
+      background-color: rgb(220,220,220);
+      }
+      
+      .banner{
+            display: none;
+      }
+      
+      .galeria{
+            display:flex;
+            flex-direction: row;
+            flex-wrap:wrap;
+            width: 80%;
+      }
+      
+      .galeria article{
+            width: 100%;
+            height: 30%;
+      }
+      
+      .galeria article img{
+            width: 100%;
+            height: 100%;
+      }
+
+      .local{
+            height: 400px;
+      }
+
+      .mapa{
+            height:95%;
+            
+            background-color: wheat;
+      }
+      
+      .redes{
+            height: 95%;
+            background-color: wheat;
+      }
+      
+      .tipografia{
+            font-style: italic;
+            font-size: 25px;
+            color: rgb(130,130,130)
+      }
+      
+      .footer{
+            width: 100%;
+            display:flex;
+            height: 15vh;
+            background-color: rgb(100,100,100);
+      }
+      
+      .footer h5{
+            color: brown;
+            text-align:center;
+            justify-content-center;
+            font-size: 4em;
+            font-family: 'Courier New', Courier, monospace;
+      
+      }
+      
+      @media (min-width: 760px) {
+      .logo{
+            width: 25%;
+            }
+            
+      
+      .banner{
+            display:block;
+            width: 100%;
+            height: 85vh;
+            }
+            
+      .banner img{
+            width:100%;
+            height: 100%;
+            }
+                  
+      .titulo_patisserie{
+            width: 100%;
+            z-index: 2;
+            position: absolute;
+            bottom: 25%;
+            left: 20%;
+            color: white;
+            display: block;
+            text-align: center;
+            }
+      
+      .titulo_patisserie h3{
+            font-size: 4em;
+            width: 100%;
+            font-family: 'Dancing Script', cursive;
+            }
+      
+      .titulo_patisserie h4{
+            font-size: 2em;
+            width: 100%;
+            font-family: 'Courier New', Courier, monospace;
+            }
+      }
+      
+      @media (min-width: 1280px) {
+            
+            .menu{
+                  display: none;
+                  }
+      
+                  
+            .logo{
+                  width: 0%;
+                  }
+      
+            nav{
+                  display: flex;
+                  height: 100%;
+                  width: 70%;
+                  justify-content: flex-end;
+            }
+            
+            nav .pestaña{
+                  width: 25%;
+                  height: 100%;
+                  text-align: center;
+            }
+            
+            nav .pestaña a{
+                  text-decoration: none;
+                  color:brown;
+                  font-family: 'Courier New', Courier, monospace;
+                  font-weight: bold;
+            }
+      
+            .galeria article{
+                  width: 50%;
+                  margin: 0;
+                  padding: 0;
+                  transition: background-color 0.5s linear;
+            }
+            .galeria article img{
+                  width: 99%;
+            }
+      
+      }
+      
+      
